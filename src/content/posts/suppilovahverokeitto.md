@@ -9,7 +9,7 @@ image:
 tags: ["Suppilovahvero", "Sieni", "Kasvis"]
 ---
 
-Tähän voi kirjoittaa ihanan taustatarinan siitä kun kävin metsässä voimaantumassa ja löysin samalla sieniä, joista päätinkin sitten valmistaa tämän upean, jo klassikoksi muodostuneen, keiton
+Tähän voi kirjoittaa ihanan taustatarinan siitä kun kävin metsässä voimaantumassa ja löysin samalla sieniä, joista päätinkin sitten valmistaa tämän upean, jo klassikoksi muodostuneen keiton
 
 ## Ainesosat
 |||
