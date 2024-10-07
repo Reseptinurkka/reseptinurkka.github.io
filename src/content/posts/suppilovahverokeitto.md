@@ -13,14 +13,14 @@ Tähän voi kirjoittaa ihanan taustatarinan siitä kun kävin metsässä voimaan
 
 ## Ainesosat
 |||
----|---|
-3dl|Kuivattuja suppilovahveroita
+---|---
+3 dl|Kuivattuja suppilovahveroita
 1|Sipuli
-Vähän|Voita
-Vähän|Öljyä
+||Voita
+||Öljyä
 4 rkl|Vehnäjauhoja
-1 1/4l|Kanalientä
-1 pkt (250g)|Savuporo Koskenlaskija
+1 1/4 l|Kanalientä
+1 pkt (250 g)|Savuporo Koskenlaskija
 1 puntti|Persilja
 
 ## Työvaiheet
