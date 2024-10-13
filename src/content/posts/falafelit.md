@@ -11,14 +11,13 @@ tags: [ "Kasvis"]
 ## Ainesosat
 |||
 ---|---
-200 g|Kuivattuja kikherneitä
-1 puntti|Korianteria
-1 puntti|Persiljaa
-6 kpl|Kevätsipulin vartta
-2 kpl|Valkosipulin kynsiä
-1 tl|Jauhettua kuminaa
-0,5 tl|Jauhettuja korianterinsiemeniä
-10 g|Suolaa
+400 g|Kuivattuja kikherneitä
+4 punttia|Yrttejä (esim. korianteri, persilja, minttu)
+12 kpl|Kevätsipulin vartta
+4 kpl|Valkosipulin kynsiä
+2 tl|Jauhettua kuminaa
+1 tl|Jauhettuja korianterinsiemeniä
+20 g|Suolaa
 ||Öljyä paistamiseen
 
 ## Työvaiheet
