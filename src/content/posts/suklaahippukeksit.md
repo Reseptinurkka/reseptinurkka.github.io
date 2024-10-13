@@ -1,6 +1,5 @@
 ---
 pubDate: 2024-10-06
-author: Wote
 title: Suklaahippukeksit
 description: "Maailman parhaat suklaahippukeksit"
 image:

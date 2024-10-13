@@ -16,5 +16,4 @@ export default defineConfig({
     }
   },
   site: 'https://Reseptinurkka.github.io',
-  base: 'Reseptinurkka',
   integrations: [sitemap(), mdx()] });

@@ -1,6 +1,5 @@
 ---
 pubDate: 2024-10-07
-author: Wote
 title: Falafelit
 description: "Hemmetin hyvät falafelit"
 image:
@@ -8,8 +7,6 @@ image:
   alt: "#"
 tags: [ "Kasvis"]
 ---
-
-Tähän sitten taas voi kirjoitella.
 
 ## Ainesosat
 |||
