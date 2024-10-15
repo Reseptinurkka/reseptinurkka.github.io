@@ -5,7 +5,7 @@ description: "Tumma ja tulinen"
 image:
   url: "/images/chiliconcarne.avif"
   alt: "#"
-tags: [""]
+tags: ["Liha", "Arki"]
 ---
 
 ## Ainesosat
