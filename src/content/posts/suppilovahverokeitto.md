@@ -5,7 +5,7 @@ description: "Keitto suppilovahveroista ja koskenlaskijasta"
 image:
   url: "/images/suppis.jfif"
   alt: "#"
-tags: ["Suppilovahvero", "Sieni", "Kasvis"]
+tags: ["Arki", "Sieni", "Kasvis"]
 ---
 
 Tähän voi kirjoittaa ihanan taustatarinan siitä kun kävin metsässä voimaantumassa ja löysin samalla sieniä, joista päätinkin sitten valmistaa tämän upean, jo klassikoksi muodostuneen keiton
