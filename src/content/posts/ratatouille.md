@@ -3,7 +3,7 @@ pubDate: 2024-10-16
 title: Ratatouille
 description: ""
 image:
-  url: "/images/ratatouille.avif"
+  url: "/images/ratatouille.jpg"
   alt: "#"
 tags: ["Kasvis"]
 ---

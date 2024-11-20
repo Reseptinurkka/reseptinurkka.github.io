@@ -3,7 +3,7 @@ pubDate: 2024-10-15
 title: Broileripyörykät
 description: ""
 image:
-  url: "/images/broileripyörykät.avif"
+  url: "/images/broileripyörykät.jpg"
   alt: "#"
 tags: ["Liha", "Arki"]
 ---

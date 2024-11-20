@@ -3,7 +3,7 @@ pubDate: 2024-10-06
 title: Suppilovahverokeitto
 description: "Keitto suppilovahveroista ja koskenlaskijasta"
 image:
-  url: "/images/suppis.jfif"
+  url: "/images/suppiskeitto.jpg"
   alt: "#"
 tags: ["Arki", "Sieni", "Kasvis"]
 ---

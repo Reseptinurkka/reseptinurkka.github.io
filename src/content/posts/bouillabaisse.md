@@ -3,7 +3,7 @@ pubDate: 2024-10-16
 title: Bouillabaisse
 description: "Ranskalainen tomaattinen kalakeitto"
 image:
-  url: "/images/bouillabaisse.avif"
+  url: "/images/bouillabaisse.jpg"
   alt: "#"
 tags: ["Kala", "Arki"]
 ---
