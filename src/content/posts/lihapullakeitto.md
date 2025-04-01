@@ -28,7 +28,7 @@ tags: ["Arki", "Liha"]
 1 puntti|Korianteria
 
 ## Työvaiheet
-1. Sekoita jauheliha, 1tl currytahnaa ja suola. Pyöritä taiknasta suupalan kokoisia lihapullia.
+1. Sekoita jauheliha, 1 tl currytahnaa ja suola. Pyöritä taikinasta suupalan kokoisia lihapullia.
 2. Hienonna inkivääri, chilit ja valkosipulinkynnet. Kuullota pari minuuttia öljyssä kattilassa. Lisää loppu currytahna ja jatka paistamista noin minuutin ajan. Lisää vesi ja kalakastike. Kiehauta liemi.
 3. Lisää lihapullat ja kypsennä 3 minuuttia. 
 4. Lisää pinaatti, limenmehu, kevätsipuli ja kookosmaito. Anna lämmetä, mutta älä keitä enää.
