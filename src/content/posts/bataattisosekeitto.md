@@ -5,7 +5,7 @@ description: ""
 image:
   url: "/images/bataattisosekeitto.jpg"
   alt: "#"
-tags: ["Arki"]
+tags: ["Arki", "Kasvis"]
 ---
 
 ## Ainesosat
