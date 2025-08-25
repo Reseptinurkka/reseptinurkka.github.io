@@ -5,7 +5,7 @@ description: ""
 image:
   url: "/images/kaaliraastesalaatti.avif"
   alt: "#"
-tags: ["Arki"]
+tags: ["Arki", "Kasvis", "Lisuke"]
 ---
 
 ## Ainesosat
