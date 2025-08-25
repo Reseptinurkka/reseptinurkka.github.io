@@ -18,7 +18,7 @@ tags: ["Liha", "Arki"]
 2|Valkosipulin kynttä raastettuna
 1 puntti|Persiljaa
 1 puntti|Korianteria
-12 g|Suolaa
+10 g|Suolaa
 1 tl|Mustapipppuria
 
 ## Työvaiheet
