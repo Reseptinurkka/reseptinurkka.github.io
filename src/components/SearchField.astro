@@ -2,7 +2,8 @@
 import "@pagefind/default-ui/css/ui.css";
 import { join } from "node:path";
 interface Props { readonly id?: string; readonly className?: string; } const { id, className } = Astro.props as Props;
-const bundlePath = join(import.meta.env.BASE_URL, "pagefind/"); const divProps = { ...(id ? { id } : {}), ...(className ? { class: className } : {}), };
+const bundlePath = join(import.meta.env.BASE_URL, "pagefind/");
+const divProps = { ...(id ? { id } : {}), ...(className ? { class: className } : {}), };
 ---
 
 <div {...divProps} data-pagefind-ui data-bundle-path={bundlePath}></div>
@@ -19,6 +20,15 @@ const bundlePath = join(import.meta.env.BASE_URL, "pagefind/"); const divProps =
       const bundlePath = el.getAttribute("data-bundle-path");
       new PagefindUI({
         element: elSelector,
+        translations: {
+          placeholder: "Haku",
+          search_label: "Hae sivustolta",
+          clear_search: "Tyhjennä",
+          load_more: "Lataa lisää",
+          zero_results: "Ei tuloksia haulle '[SEARCH_TERM]'",
+          one_result: "[COUNT] tulos haulle '[SEARCH_TERM]'",
+          many_results: "[COUNT] tulosta haulle '[SEARCH_TERM]'",
+        },
         bundlePath,
         showImages: false,
         debounceTimeoutMs: 100,
