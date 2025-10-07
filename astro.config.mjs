@@ -1,7 +1,6 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
-import pagefind from "astro-pagefind";
 
 import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
@@ -17,6 +16,5 @@ export default defineConfig({
     },
   },
   site: "https://Reseptinurkka.github.io",
-  integrations: [sitemap(), mdx(), pagefind()],
+  integrations: [sitemap(), mdx()],
 });
-
