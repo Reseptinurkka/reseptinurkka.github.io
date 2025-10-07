@@ -11,7 +11,6 @@ const divProps = { ...(id ? { id } : {}), ...(className ? { class: className } :
 <div {...divProps} data-pagefind-ui="true" data-bundle-path={bundlePath}></div>
 <script is:inline>
   if (typeof window !== "undefined") {
-    // import { PagefindUI } from "@pagefind/default-ui";
     window.addEventListener("DOMContentLoaded", () => {
       const allSelector = "[data-pagefind-ui]";
       for (const el of document.querySelectorAll(allSelector)) {
@@ -32,7 +31,7 @@ const divProps = { ...(id ? { id } : {}), ...(className ? { class: className } :
             one_result: "[COUNT] tulos haulle '[SEARCH_TERM]'",
             many_results: "[COUNT] tulosta haulle '[SEARCH_TERM]'",
           },
-          bundlePath,
+          // bundlePath: bundlePath,
           showImages: false,
           debounceTimeoutMs: 100,
         });
