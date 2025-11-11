@@ -3,7 +3,7 @@ pubDate: 2024-11-03
 title: Puolukka-valkosuklaakakku
 description: ""
 image:
-  url: "/images/kakku.avif"
+  url: "/images/puolukkavalkosuklaakakku.jpg"
   alt: "#"
 tags: ["Jälkkäri"]
 ---
