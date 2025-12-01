@@ -6,19 +6,8 @@
     // TABLE ROWS
     //
     document.querySelectorAll("table tr").forEach((row) => {
-      const key = `check-row-${(row.textContent ?? "").trim()}`;
-
-      if (localStorage.getItem(key) === "checked") {
-        row.classList.add("checked-item");
-      }
-
       row.addEventListener("click", () => {
         row.classList.toggle("checked-item");
-        if (row.classList.contains("checked-item")) {
-          localStorage.setItem(key, "checked");
-        } else {
-          localStorage.removeItem(key);
-        }
       });
     });
 
@@ -26,19 +15,8 @@
     // LIST ITEMS
     //
     document.querySelectorAll("ul li, ol li").forEach((item) => {
-      const key = `check-li-${(item.textContent ?? "").trim()}`;
-
-      if (localStorage.getItem(key) === "checked") {
-        item.classList.add("checked-item");
-      }
-
       item.addEventListener("click", () => {
         item.classList.toggle("checked-item");
-        if (item.classList.contains("checked-item")) {
-          localStorage.setItem(key, "checked");
-        } else {
-          localStorage.removeItem(key);
-        }
       });
     });
   });
