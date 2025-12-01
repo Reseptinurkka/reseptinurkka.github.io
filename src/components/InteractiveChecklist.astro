@@ -6,7 +6,7 @@
     // TABLE ROWS
     //
     document.querySelectorAll("table tr").forEach((row) => {
-      const key = `check-row-${row.textContent.trim()}`;
+      const key = `check-row-${(row.textContent ?? "").trim()}`;
 
       if (localStorage.getItem(key) === "checked") {
         row.classList.add("checked-item");
@@ -26,7 +26,7 @@
     // LIST ITEMS
     //
     document.querySelectorAll("ul li, ol li").forEach((item) => {
-      const key = `check-li-${item.textContent.trim()}`;
+      const key = `check-li-${(item.textContent ?? "").trim()}`;
 
       if (localStorage.getItem(key) === "checked") {
         item.classList.add("checked-item");

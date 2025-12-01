@@ -1,9 +1,11 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+import InteractiveChecklist from "@/components/InteractiveChecklist.astro";
 const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout>
+  <InteractiveChecklist />
   <section>
     <div class="px-8 py-12 md:px-12 mx-auto lg:pt-24 max-w-7xl lg:px-32">
       <div class="lg:text-center">
