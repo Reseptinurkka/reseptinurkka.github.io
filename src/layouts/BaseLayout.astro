@@ -1,7 +1,7 @@
 ---
 import BaseHead from "@/components/BaseHead.astro";
 import Navigation from "@/components/global/Navigation.astro";
-import IngredientToggle from "@/components/IngredientsToggle.astro";
+import InteractiveChecklist from "@/components/InteractiveChecklist.astro";
 import Footer from "@/components/global/Footer.astro";
 ---
 
@@ -11,7 +11,7 @@ import Footer from "@/components/global/Footer.astro";
     
   </head>
   <body class="bg-white flex flex-col min-h-screen">
-    <IngredientToggle />
+    <InteractiveChecklist />
     <Navigation />
     <main class="flex-grow"><slot /></main>
     <Footer />

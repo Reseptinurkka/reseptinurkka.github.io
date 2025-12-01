@@ -54,17 +54,22 @@
   --astro-code-token-link: #ffffff;
 }
 
-/* Makes table rows look clickable */
-table tr {
+/* Make lists + table rows feel interactive */
+table tr,
+ul li,
+ol li {
   cursor: pointer;
 }
 
-/* Optional: subtle hover so users know it's interactive */
-table tr:hover {
-  background-color: rgba(0, 0, 0, 0.04); /* light gray */
+table tr:hover,
+ul li:hover,
+ol li:hover {
+  background-color: rgba(0, 0, 0, 0.04);
 }
 
-.ingredient-used {
+/* Checked state */
+.checked-item,
+.checked-item td {
   text-decoration: line-through;
   opacity: 0.5;
 }
