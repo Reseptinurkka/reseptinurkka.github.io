@@ -20,7 +20,7 @@
   --color-blue-950: #01001e;
 }
 .font-display {
-   font-family: var(--font-display);
+  font-family: var(--font-display);
 }
 .font-sans {
   font-family: var(--font-sans);
@@ -54,4 +54,17 @@
   --astro-code-token-link: #ffffff;
 }
 
+/* Makes table rows look clickable */
+table tr {
+  cursor: pointer;
+}
 
+/* Optional: subtle hover so users know it's interactive */
+table tr:hover {
+  background-color: rgba(0, 0, 0, 0.04); /* light gray */
+}
+
+.ingredient-used {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
