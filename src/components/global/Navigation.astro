@@ -1,4 +1,5 @@
 ---
+import CookMode from "@/components/CookMode.astro";
 ---
 <div class=" " >
   <div class=" px-8 md:px-12 mx-auto max-w-7xl py-2  lg:px-32 text-xs">
@@ -7,6 +8,9 @@
         <a class="text-black hover:text-zinc-500 items-center font-normal uppercase gap-3 inline-flex " href="/" >
           Reseptinurkka
         </a>
+        <div class="block md:hidden">
+          <CookMode />
+        </div>
       </div>
     </div>
   </div>
