@@ -36,7 +36,10 @@ const { frontmatter } = Astro.props;
           <p class="text-xs text-zinc-500">
             {frontmatter.pubDate.toString().slice(0, 10)} - Written by: {"Reseptinurkka"}
           </p>
-          <CookMode />
+
+          <div class="block md:hidden">
+            <CookMode />
+          </div>
 
           <div class="flex gap-3">
             {frontmatter.tags.map((tag: string) => (
