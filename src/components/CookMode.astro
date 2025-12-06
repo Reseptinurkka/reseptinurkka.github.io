@@ -1,0 +1,63 @@
+---
+// CookModeToggle.astro
+// A reusable Astro component for enabling/disabling screen wake lock
+---
+<button id="cook-mode-btn" class="cook-mode-btn">
+  Enable Cook Mode
+</button>
+
+<script>
+  // Types
+  let wakeLock: WakeLockSentinel | null = null;
+  const btn = document.getElementById("cook-mode-btn") as HTMLButtonElement | null;
+
+  async function requestWakeLock(): Promise<void> {
+    if (!btn) return;
+
+    try {
+      wakeLock = await navigator.wakeLock.request("screen");
+      btn.textContent = "Cook Mode: ON";
+
+      wakeLock.addEventListener("release", () => {
+        if (btn) btn.textContent = "Cook Mode: OFF";
+      });
+    } catch (err: unknown) {
+      const error = err instanceof Error ? err : new Error(String(err));
+      console.error(error);
+      alert("Wake Lock is not supported on this device or browser.");
+    }
+  }
+
+  function releaseWakeLock(): void {
+    if (wakeLock) {
+      wakeLock.release();
+      wakeLock = null;
+      if (btn) btn.textContent = "Cook Mode: OFF";
+    }
+  }
+
+  if (btn) {
+    btn.addEventListener("click", () => {
+      if (wakeLock) releaseWakeLock();
+      else requestWakeLock();
+    });
+  }
+
+  document.addEventListener("visibilitychange", () => {
+    if (wakeLock && document.visibilityState === "visible") {
+      requestWakeLock();
+    }
+  });
+</script>
+
+<style>
+  .cook-mode-btn {
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+    background: #ffb347;
+    border: none;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+</style>
