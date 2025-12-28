@@ -5,7 +5,7 @@ description: ""
 image:
   url: "/images/tomaattinenmakaronilaatikko.jpg"
   alt: "#"
-tags: ["Arki"]
+tags: ["Arki", "Liha"]
 ---
 
 ## Ainesosat
